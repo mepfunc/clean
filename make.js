@@ -178,9 +178,9 @@ html(lang='en')
             path : dir.styles + 'mixins.scss',
             inner: `/* mixins */\n@mixin gray($color) { color: $color }`,
         }, {
-            name: 'virables.scss',
-            path : dir.styles + 'virables.scss',
-            inner: `/* virables */\n$gray: #ccc;`,
+            name: 'variables.scss',
+            path : dir.styles + 'variables.scss',
+            inner: `/* variables */\n$gray: #ccc;`,
         }, {
             name: 'style.scss',
             path : dir.styles + 'style.scss',
